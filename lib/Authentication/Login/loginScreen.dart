@@ -296,20 +296,13 @@ class _LoginScreenState extends State<LoginScreen> {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
-                  ElevatedButton(
-                    style: ElevatedButton.styleFrom(
-                      backgroundColor: Colors.white,
-                      disabledBackgroundColor: Colors.white,
-                      shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(10)),
-                    ),
-                    onPressed: () {},
-                    child: SizedBox(
-                      height: 20,
-                      width: 20,
-                      child: Image.asset('images/search.png'),
-                    ),
-                  ),
+                 SocialLoginButton(
+                   icon:Icons.g_mobiledata,
+                   color: Colors.red,
+                   onPressed: (){
+
+                   },
+                 ),
                   SocialLoginButton(
                     icon: Icons.apple,
                     color: Colors.black, // Apple color
