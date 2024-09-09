@@ -113,7 +113,6 @@ class _LoginScreenState extends State<LoginScreen> {
           _showErrorMessage('Server error while logging in.');
         }
       } catch (error) {
-        print('Error during login: $error');
         _showErrorMessage('An unexpected error occurred.');
       } finally {
         setState(() {
