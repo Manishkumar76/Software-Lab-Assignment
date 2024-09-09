@@ -52,7 +52,7 @@
 <body>
 <h2 id="apk-download">APK Download</h2>
 <p>For Android users, you can download and install the application directly on your device using the APK file provided:</p>
-<p><a href="https://github.com/Manishkumar76/Software-Lab-Assignment/releases/download/v1.0/base-release.apk">Download base-release.apk</a></p>
+<p><a href="./app-release.apk">Download base-release.apk</a></p>
 </body>
 </html>
 
