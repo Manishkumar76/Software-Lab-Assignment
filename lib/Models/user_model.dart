@@ -128,7 +128,7 @@ class UserData with ChangeNotifier {
     notifyListeners();
   }
 
-  Map<String, dynamic> toJson() {
+  Map<String,dynamic> toJson(){
     return {
       'fullName': fullName,
       'email': email,
